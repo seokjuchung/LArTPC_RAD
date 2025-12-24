@@ -1,4 +1,8 @@
 # 2025-12-24: Planning and thoughts
+1. Final Goal
+    1. Have network which fits on FPGA
+    2. Clear anomaly metric
+    3. Inputs are zero-suppressed raw LArTPC data?
 1. Things to improve
     1. Better anomaly metric: Ideally, need rare/BSM event. Not possible within open data framework. Investigate possibility of proxy? e.g. Train on tracks, validate if showers are anomalous.
     2. Compare anomaly score (loss) to ordinary ADC based cuts: Interesting possibility.
